@@ -1,0 +1,88 @@
+2025-11-19 10:46:23,356 - INFO - Training on device: cpu
+2025-11-19 10:46:23,356 - INFO - Model config: {'rna_vocab_size': 5, 'protein_vocab_size': 21, 'rna_embed_dim': 64, 'protein_embed_dim': 64, 'cnn_channels': 128, 'cnn_kernel_size': 5, 'dropout_rate': 0.5, 'fusion_dim': 256}
+2025-11-19 10:46:23,356 - INFO - Training config: {'batch_size': 32, 'learning_rate': 0.0005, 'epochs': 50, 'weight_decay': 0.0001, 'early_stopping_patience': 15, 'save_best_model': True}
+2025-11-19 10:46:24,146 - INFO - Loading training data from data/rna_protein_data.csv
+2025-11-19 10:46:24,498 - INFO - Loading validation data from data/rna_protein_val.csv
+2025-11-19 10:46:24,515 - INFO - Loading test data from data/rna_protein_test.csv
+2025-11-19 10:46:24,558 - INFO - Excluded validation (5000) and test (5000) sets from training data
+2025-11-19 10:46:24,558 - INFO - Train set: 40000 samples, Val set: 5000 samples (from data/rna_protein_val.csv)
+2025-11-19 10:49:17,072 - INFO - Train Epoch 1: Average Loss: 0.467845
+2025-11-19 10:49:32,562 - INFO - Validation Epoch 1: Average Loss: 0.239563, Accuracy: 91.76%
+2025-11-19 10:49:32,577 - INFO - Epoch 1 completed. Best Val Acc: 91.76%
+2025-11-19 10:52:30,814 - INFO - Train Epoch 2: Average Loss: 0.319836
+2025-11-19 10:52:46,668 - INFO - Validation Epoch 2: Average Loss: 0.288184, Accuracy: 87.92%
+2025-11-19 10:52:46,675 - INFO - Epoch 2 completed. Best Val Acc: 91.76%
+2025-11-19 10:55:52,731 - INFO - Train Epoch 3: Average Loss: 0.306319
+2025-11-19 10:56:11,821 - INFO - Validation Epoch 3: Average Loss: 0.171132, Accuracy: 93.46%
+2025-11-19 10:56:11,831 - INFO - Epoch 3 completed. Best Val Acc: 93.46%
+2025-11-19 10:59:26,862 - INFO - Train Epoch 4: Average Loss: 0.263089
+2025-11-19 10:59:45,966 - INFO - Validation Epoch 4: Average Loss: 0.168559, Accuracy: 93.40%
+2025-11-19 10:59:45,973 - INFO - Epoch 4 completed. Best Val Acc: 93.46%
+2025-11-19 11:02:46,383 - INFO - Train Epoch 5: Average Loss: 0.234613
+2025-11-19 11:03:04,142 - INFO - Validation Epoch 5: Average Loss: 0.166733, Accuracy: 93.48%
+2025-11-19 11:03:04,153 - INFO - Epoch 5 completed. Best Val Acc: 93.48%
+2025-11-19 11:06:07,659 - INFO - Train Epoch 6: Average Loss: 0.216557
+2025-11-19 11:06:27,795 - INFO - Validation Epoch 6: Average Loss: 0.208941, Accuracy: 91.76%
+2025-11-19 11:06:27,808 - INFO - Epoch 6 completed. Best Val Acc: 93.48%
+2025-11-19 11:09:41,462 - INFO - Train Epoch 7: Average Loss: 0.212160
+2025-11-19 11:09:59,636 - INFO - Validation Epoch 7: Average Loss: 0.212496, Accuracy: 91.34%
+2025-11-19 11:09:59,643 - INFO - Epoch 7 completed. Best Val Acc: 93.48%
+2025-11-19 11:13:16,518 - INFO - Train Epoch 8: Average Loss: 0.202932
+2025-11-19 11:13:38,853 - INFO - Validation Epoch 8: Average Loss: 0.151607, Accuracy: 94.02%
+2025-11-19 11:13:38,865 - INFO - Epoch 8 completed. Best Val Acc: 94.02%
+2025-11-19 11:16:52,218 - INFO - Train Epoch 9: Average Loss: 0.192119
+2025-11-19 11:17:13,316 - INFO - Validation Epoch 9: Average Loss: 0.152029, Accuracy: 94.14%
+2025-11-19 11:17:13,332 - INFO - Epoch 9 completed. Best Val Acc: 94.14%
+2025-11-19 11:20:33,219 - INFO - Train Epoch 10: Average Loss: 0.188962
+2025-11-19 11:20:53,701 - INFO - Validation Epoch 10: Average Loss: 0.289773, Accuracy: 89.68%
+2025-11-19 11:20:53,711 - INFO - Epoch 10 completed. Best Val Acc: 94.14%
+2025-11-19 11:24:22,161 - INFO - Train Epoch 11: Average Loss: 0.186108
+2025-11-19 11:24:42,179 - INFO - Validation Epoch 11: Average Loss: 0.150033, Accuracy: 94.38%
+2025-11-19 11:24:42,191 - INFO - Epoch 11 completed. Best Val Acc: 94.38%
+2025-11-19 11:27:57,089 - INFO - Train Epoch 12: Average Loss: 0.174319
+2025-11-19 11:28:16,902 - INFO - Validation Epoch 12: Average Loss: 0.150910, Accuracy: 94.00%
+2025-11-19 11:28:16,913 - INFO - Epoch 12 completed. Best Val Acc: 94.38%
+2025-11-19 11:31:31,106 - INFO - Train Epoch 13: Average Loss: 0.173309
+2025-11-19 11:31:49,239 - INFO - Validation Epoch 13: Average Loss: 0.152370, Accuracy: 93.86%
+2025-11-19 11:31:49,246 - INFO - Epoch 13 completed. Best Val Acc: 94.38%
+2025-11-19 11:34:45,547 - INFO - Train Epoch 14: Average Loss: 0.163219
+2025-11-19 11:35:02,738 - INFO - Validation Epoch 14: Average Loss: 0.162784, Accuracy: 93.60%
+2025-11-19 11:35:02,747 - INFO - Epoch 14 completed. Best Val Acc: 94.38%
+2025-11-19 11:37:52,479 - INFO - Train Epoch 15: Average Loss: 0.162143
+2025-11-19 11:38:09,754 - INFO - Validation Epoch 15: Average Loss: 0.208519, Accuracy: 91.78%
+2025-11-19 11:38:09,761 - INFO - Epoch 15 completed. Best Val Acc: 94.38%
+2025-11-19 11:41:00,146 - INFO - Train Epoch 16: Average Loss: 0.158610
+2025-11-19 11:41:17,370 - INFO - Validation Epoch 16: Average Loss: 0.153628, Accuracy: 93.70%
+2025-11-19 11:41:17,379 - INFO - Epoch 16 completed. Best Val Acc: 94.38%
+2025-11-19 11:44:09,978 - INFO - Train Epoch 17: Average Loss: 0.159256
+2025-11-19 11:44:29,515 - INFO - Validation Epoch 17: Average Loss: 0.183441, Accuracy: 92.68%
+2025-11-19 11:44:29,525 - INFO - Epoch 17 completed. Best Val Acc: 94.38%
+2025-11-19 11:48:05,342 - INFO - Train Epoch 18: Average Loss: 0.123168
+2025-11-19 11:48:25,962 - INFO - Validation Epoch 18: Average Loss: 0.169623, Accuracy: 93.68%
+2025-11-19 11:48:25,970 - INFO - Epoch 18 completed. Best Val Acc: 94.38%
+2025-11-19 11:51:47,216 - INFO - Train Epoch 19: Average Loss: 0.120637
+2025-11-19 11:52:09,073 - INFO - Validation Epoch 19: Average Loss: 0.177857, Accuracy: 93.48%
+2025-11-19 11:52:09,084 - INFO - Epoch 19 completed. Best Val Acc: 94.38%
+2025-11-19 11:55:26,455 - INFO - Train Epoch 20: Average Loss: 0.112184
+2025-11-19 11:55:46,539 - INFO - Validation Epoch 20: Average Loss: 0.188295, Accuracy: 93.52%
+2025-11-19 11:55:46,547 - INFO - Epoch 20 completed. Best Val Acc: 94.38%
+2025-11-19 11:59:08,561 - INFO - Train Epoch 21: Average Loss: 0.114299
+2025-11-19 11:59:29,421 - INFO - Validation Epoch 21: Average Loss: 0.169384, Accuracy: 94.12%
+2025-11-19 11:59:29,429 - INFO - Epoch 21 completed. Best Val Acc: 94.38%
+2025-11-19 12:03:01,342 - INFO - Train Epoch 22: Average Loss: 0.105422
+2025-11-19 12:03:21,778 - INFO - Validation Epoch 22: Average Loss: 0.207888, Accuracy: 93.84%
+2025-11-19 12:03:21,787 - INFO - Epoch 22 completed. Best Val Acc: 94.38%
+2025-11-19 12:06:50,433 - INFO - Train Epoch 23: Average Loss: 0.105696
+2025-11-19 12:07:11,185 - INFO - Validation Epoch 23: Average Loss: 0.174711, Accuracy: 93.58%
+2025-11-19 12:07:11,193 - INFO - Epoch 23 completed. Best Val Acc: 94.38%
+2025-11-19 12:10:19,111 - INFO - Train Epoch 24: Average Loss: 0.086598
+2025-11-19 12:10:37,225 - INFO - Validation Epoch 24: Average Loss: 0.222191, Accuracy: 93.70%
+2025-11-19 12:10:37,232 - INFO - Epoch 24 completed. Best Val Acc: 94.38%
+2025-11-19 12:13:33,152 - INFO - Train Epoch 25: Average Loss: 0.083364
+2025-11-19 12:13:51,784 - INFO - Validation Epoch 25: Average Loss: 0.320177, Accuracy: 92.64%
+2025-11-19 12:13:51,792 - INFO - Epoch 25 completed. Best Val Acc: 94.38%
+2025-11-19 12:17:10,910 - INFO - Train Epoch 26: Average Loss: 0.085542
+2025-11-19 12:17:32,962 - INFO - Validation Epoch 26: Average Loss: 0.246606, Accuracy: 93.64%
+2025-11-19 12:17:32,972 - INFO - Epoch 26 completed. Best Val Acc: 94.38%
+2025-11-19 12:17:32,972 - INFO - Early stopping at epoch 26
+2025-11-19 12:17:32,978 - INFO - Training completed!
